@@ -1,0 +1,14 @@
+[
+  {
+    "grafName":"one",
+    "description": "Graf One",
+    "id":1,
+    "src":"/Grafs/one"
+  },
+  {
+    "grafName":"two",
+    "description": "Graf Two",
+    "id":2,
+    "src":"/Grafs/two"
+  }
+]

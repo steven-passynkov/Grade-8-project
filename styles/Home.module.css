@@ -2,18 +2,17 @@
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 .footer {
@@ -73,22 +72,23 @@
 
 .grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 60em;
+  list-style: none;
+  padding-left: 0;
   margin-top: 3rem;
+  list-style-type: none;
 }
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
   padding: 1.5rem;
+  flex-basis: calc(50% - 2rem);
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
