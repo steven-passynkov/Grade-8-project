@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
-import styles from "../../styles/Home.module.css";
+import grafstyles from "../../styles/graf.module.css";
 import { useRouter } from "next/router";
 import grafdata from "../../graf_data.json";
 import { useEffect, useState } from "react";
@@ -28,11 +28,11 @@ export default function Graf() {
         <Breadcrumb.Item active>Graf {graf}</Breadcrumb.Item>
       </Breadcrumb>
 
-      <div className={styles.card}>
+      <div className={grafstyles.accordion}>
         <Accordion defaultActiveKey="0">
           <Card>
             <Card.Header>
-              <Accordion.Toggle as={Button} variant="link" eventKey="0">
+              <Accordion.Toggle as={Button} eventKey="0">
                 The conclusion
               </Accordion.Toggle>
             </Card.Header>
@@ -42,7 +42,6 @@ export default function Graf() {
           </Card>
         </Accordion>
       </div>
-
     </div>
   );
 }
