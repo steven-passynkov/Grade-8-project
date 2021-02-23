@@ -3,12 +3,14 @@
     "grafName":"one",
     "description": "Graf One",
     "id":1,
-    "src":"/Grafs/one"
+    "src":"/Grafs/one",
+    "conclusion":"The conclusion"
   },
   {
     "grafName":"two",
     "description": "Graf Two",
     "id":2,
-    "src":"/Grafs/two"
+    "src":"/Grafs/two",
+    "conclusion":"The conclusion"
   }
 ]
