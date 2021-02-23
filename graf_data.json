@@ -12,5 +12,12 @@
     "id":2,
     "src":"/Grafs/two",
     "conclusion":"The conclusion"
+  },
+  {
+    "grafName":"three",
+    "description": "Graf Three",
+    "id":2,
+    "src":"/Grafs/three",
+    "conclusion":"The conclusion"
   }
 ]
