@@ -22,7 +22,7 @@ export default function Graf() {
     <div>
       <Breadcrumb>
         <Breadcrumb.Item>
-          <Link href="/home">Home</Link>
+          <Link href="/">Home</Link>
         </Breadcrumb.Item>
 
         <Breadcrumb.Item active>Graf {graf}</Breadcrumb.Item>
