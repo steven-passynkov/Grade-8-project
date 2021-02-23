@@ -32,7 +32,7 @@ export default function Graf() {
         <Accordion defaultActiveKey="0">
           <Card>
             <Card.Header>
-              <Accordion.Toggle as={Button} eventKey="0">
+              <Accordion.Toggle as={Button} variant="outline-dark" eventKey="0">
                 The conclusion
               </Accordion.Toggle>
             </Card.Header>

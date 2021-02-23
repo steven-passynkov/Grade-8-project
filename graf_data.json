@@ -4,20 +4,20 @@
     "description": "Graf One",
     "id":1,
     "src":"/Grafs/one",
-    "conclusion":"The conclusion"
+    "conclusion":"The conclusion for one"
   },
   {
     "grafName":"two",
     "description": "Graf Two",
     "id":2,
     "src":"/Grafs/two",
-    "conclusion":"The conclusion"
+    "conclusion":"The conclusion for two"
   },
   {
     "grafName":"three",
     "description": "Graf Three",
     "id":2,
     "src":"/Grafs/three",
-    "conclusion":"The conclusion"
+    "conclusion":"The conclusion for three"
   }
 ]
