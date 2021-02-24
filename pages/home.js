@@ -1,12 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
-import grafdata from "../graf_data.json";
+import graphdata from "../graph_data.json";
 import Button from "react-bootstrap/Button";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
+
 
 export default function HomePage() {
   return (
@@ -22,12 +23,12 @@ export default function HomePage() {
 
       <Container>
         <Row>
-          {grafdata.map((grafdata) => {
-            const { description, id, src } = grafdata;
+          {graphdata.map((graphdata) => {
+            const { description, id, src, img } = graphdata;
             return (
               <Col key={id}>
                 <Card style={{ width: "18rem" }}>
-                  <Card.Img variant="top" scr="" />
+                  <Card.Img variant="top" src={img} />
                   <Card.Body>
                     <Card.Text>{description}</Card.Text>
                     <Link href={src}>

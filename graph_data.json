@@ -1,0 +1,86 @@
+[
+  {
+    "graphName": "one",
+    "header": "How much time do you prefer to spend on homework each day?",
+    "description": "Graph One",
+    "id": 1,
+    "src": "/Graphs/one",
+    "img": "/graph-homework.png",
+    "conclusion": "The conclusion for one",
+    "types": ["bar", "pie"],
+    "data": [
+      {
+        "name": "0h",
+        "value": 2
+      },
+      {
+        "name": "1h",
+        "value": 9
+      },
+      {
+        "name": "2h",
+        "value": 1
+      },
+      {
+        "name": "3h",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "graphName": "two",
+    "header":"How do you prefer to study?",
+    "description": "Graph Two",
+    "id": 2,
+    "src": "/Graphs/two",
+    "img":"/graph-study.png",
+    "conclusion": "The conclusion for two",
+    "types": ["bar", "pie"],
+    "data": [
+      {
+        "name": "Reading through your notes",
+        "value": 5
+      },
+      {
+        "name": "Doesn't matter",
+        "value": 3
+      },
+      {
+        "name": "Quizzing with a partner",
+        "value": 2
+      },
+      {
+        "name": "flashcards",
+        "value": 1
+      },
+      {
+        "name": "make notes",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "graphName": "three",
+    "header":"When do you prefer to have tests?",
+    "description": "Graph Three",
+    "id": 3,
+    "src": "/Graphs/three",
+    "img":"/graph-study.png",
+    "conclusion": "The conclusion for three",
+    "types": ["bar", "pie"],
+    "data": [
+      {
+        "name": "2:10pm-3:50pm",
+        "value": 7
+      },
+      {
+        "name": "11:30am-1:10pm",
+        "value": 5
+      },
+      {
+        "name": "9:20am-11:00 am",
+        "value": 1
+      }
+    ]
+  }
+]
