@@ -82,5 +82,109 @@
         "value": 1
       }
     ]
+  },
+  {
+    "graphName": "four",
+    "header":"How many times a day do you participate in class ( ask/answer questions )?",
+    "description": "Graph Four",
+    "id": 4,
+    "src": "/Graphs/four",
+    "img":"/graph-participate.png",
+    "conclusion": "The conclusion for four",
+    "types": ["bar", "pie"],
+    "data": [
+      {
+        "name": "0 questions",
+        "value": 2
+      },
+      {
+        "name": "1 questions",
+        "value": 2
+      },
+      {
+        "name": "2 questions",
+        "value": 2
+      },
+      {
+        "name":"3 questions",
+        "value": 0
+      },
+      {
+        "name":"4 questions",
+        "value": 2
+      },
+      {
+        "name":"5 questions",
+        "value": 2
+      },
+      {
+        "name":"6 questions",
+        "value": 0
+      },
+      {
+        "name":"7 questions",
+        "value": 0
+      },
+      {
+        "name":"8 questions",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "graphName": "five",
+    "header":"How much do you sleep a night on average?",
+    "description": "Graph Five",
+    "id": 5,
+    "src": "/Graphs/five",
+    "img":"/graph-sleep.png",
+    "conclusion": "The conclusion for five",
+    "types": ["bar", "pie"],
+    "data": [
+      {
+        "name": "4h",
+        "value": 1
+      },
+      {
+        "name": "6h",
+        "value": 4
+      },
+      {
+        "name": "8h",
+        "value": 2
+      },
+      {
+        "name":"9h",
+        "value":1
+      }
+    ]
+  },
+  {
+    "graphName": "six",
+    "header":"How much do you sleep a night on average?",
+    "description": "Graph six",
+    "id": 6,
+    "src": "/Graphs/six",
+    "img":"/graph-sleep.png",
+    "conclusion": "The conclusion for six",
+    "types": ["bar", "pie"],
+    "data": [
+      {
+        "name": "data",
+        "value": 0
+      },
+      {
+        "name": "data",
+        "value": 0
+      },
+      {
+        "name": "data",
+        "value": 0
+      },
+      {
+        "name":"data",
+        "value": 0
+      }
+    ]
   }
 ]

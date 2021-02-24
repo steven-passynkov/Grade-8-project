@@ -9,6 +9,7 @@ import { Accordion } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import BarGraph from "../../components/bar-graph";
 import PieGraph from "../../components/pie-chart";
+import ScatterGraph from "../../components/scatter-plot";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
@@ -22,7 +23,7 @@ export default function Graph() {
     setGraphData(data);
   }, [graph]);
 
-  if(!graphData) {
+  if (!graphData) {
     return null;
   }
 
@@ -45,6 +46,9 @@ export default function Graph() {
           )}
           {graphData.types.indexOf("pie") !== -1 && (
             <PieGraph data={graphData.data} />
+          )}
+          {graphData.types.indexOf("scatter") !== -1 && (
+            <ScatterGraph data={graphData.data} />
           )}
         </Row>
       </Container>
