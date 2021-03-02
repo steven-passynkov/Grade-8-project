@@ -6,16 +6,16 @@
     "id": 1,
     "src": "/Graphs/one",
     "img": "/graph-homework.png",
-    "conclusion": "The conclusion for one",
+    "conclusion": "Mean:1.005, Mode:1, Range:3",
     "types": ["bar", "pie"],
     "data": [
       {
         "name": "0h",
-        "value": 2
+        "value": 4
       },
       {
         "name": "1h",
-        "value": 9
+        "value": 10
       },
       {
         "name": "2h",
@@ -34,16 +34,16 @@
     "id": 2,
     "src": "/Graphs/two",
     "img":"/graph-study.png",
-    "conclusion": "The conclusion for two",
+    "conclusion": "Mean:3, Mode:1, Range:7",
     "types": ["bar", "pie"],
     "data": [
       {
         "name": "Reading through your notes",
-        "value": 5
+        "value": 8
       },
       {
         "name": "Doesn't matter",
-        "value": 3
+        "value": 5
       },
       {
         "name": "Quizzing with a partner",
@@ -66,16 +66,16 @@
     "id": 3,
     "src": "/Graphs/three",
     "img":"/graph-study.png",
-    "conclusion": "The conclusion for three",
+    "conclusion": "Mean 6, Mode:There are non, Range:9",
     "types": ["bar", "pie"],
     "data": [
       {
         "name": "2:10pm-3:50pm",
-        "value": 7
+        "value": 10
       },
       {
         "name": "11:30am-1:10pm",
-        "value": 5
+        "value": 7
       },
       {
         "name": "9:20am-11:00 am",
@@ -90,12 +90,12 @@
     "id": 4,
     "src": "/Graphs/four",
     "img":"/graph-participate.png",
-    "conclusion": "The conclusion for four",
+    "conclusion": "Mean:2.689, Mode:0, Range:9",
     "types": ["bar", "pie"],
     "data": [
       {
         "name": "0 questions",
-        "value": 2
+        "value": 3
       },
       {
         "name": "1 questions",
@@ -103,11 +103,11 @@
       },
       {
         "name": "2 questions",
-        "value": 2
+        "value": 4
       },
       {
         "name":"3 questions",
-        "value": 0
+        "value": 1
       },
       {
         "name":"4 questions",
@@ -127,7 +127,7 @@
       },
       {
         "name":"8 questions",
-        "value": 3
+        "value": 4
       }
     ]
   },
@@ -138,16 +138,28 @@
     "id": 5,
     "src": "/Graphs/five",
     "img":"/graph-sleep.png",
-    "conclusion": "The conclusion for five",
+    "conclusion": "Mean:6.37, Mode:2, Range:7",
     "types": ["bar", "pie"],
     "data": [
+      {
+        "name": "2h",
+        "value": 1
+      },
       {
         "name": "4h",
         "value": 1
       },
       {
+        "name": "5h",
+        "value": 1
+      },
+      {
         "name": "6h",
         "value": 4
+      },
+      {
+        "name": "7h",
+        "value": 6
       },
       {
         "name": "8h",
@@ -161,12 +173,12 @@
   },
   {
     "graphName": "six",
-    "header":"How much do you sleep a night on average?",
+    "header":"idk",
     "description": "Graph six",
     "id": 6,
     "src": "/Graphs/six",
     "img":"/graph-sleep.png",
-    "conclusion": "The conclusion for six",
+    "conclusion": "idk",
     "types": ["scatter"],
     "data": [
       {
@@ -176,18 +188,18 @@
       },
       {
         "name": "data",
-        "value1": 0,
-        "value2": 1
+        "value1": 84,
+        "value2": 10
       },
       {
         "name": "data",
-        "value1": 0,
-        "value2": 1
+        "value1": 21,
+        "value2": 100
       },
       {
         "name":"data",
-        "value1": 0,
-        "value2": 1
+        "value1": 100,
+        "value2": 12
       }
     ]
   }

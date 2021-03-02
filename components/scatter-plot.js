@@ -8,7 +8,7 @@ import {
     Cell
   } from "recharts";
 
-const COLORS = ["#0088FE"];
+const COLORS = ["#0088FE",];
 
 export default function ScatterGraph({data}) {
   return (
@@ -23,8 +23,8 @@ export default function ScatterGraph({data}) {
       }}
     >
       <CartesianGrid />
-      <XAxis type="number" dataKey="value1" name="stature" unit="" />
-      <YAxis type="number" dataKey="value2" name="weight" unit="" />
+      <XAxis type="number" dataKey="value1" name="idk"/>
+      <YAxis type="number" dataKey="value2" name="idk"/>
       <Tooltip cursor={{ strokeDasharray: "3 3" }} />
       <Scatter name="A school" data={data} fill="#8884d8">
         {data.map((entry, index) => (
