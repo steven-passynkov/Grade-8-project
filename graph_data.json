@@ -173,7 +173,7 @@
   },
   {
     "graphName": "six",
-    "header":"idk",
+    "header":"How much do you sleep a night on average? and How many times a day do you participate in class?",
     "description": "Graph six",
     "id": 6,
     "src": "/Graphs/six",
@@ -183,23 +183,38 @@
     "data": [
       {
         "name": "data",
-        "value1": 10,
-        "value2": 1
+        "value1": 0,
+        "value2": 3
       },
       {
         "name": "data",
-        "value1": 84,
-        "value2": 10
+        "value1": 0,
+        "value2": 2
       },
       {
         "name": "data",
-        "value1": 21,
-        "value2": 100
+        "value1": 1,
+        "value2": 4
       },
       {
         "name":"data",
-        "value1": 100,
-        "value2": 12
+        "value1": 4,
+        "value2": 1
+      },
+      {
+        "name":"data",
+        "value1": 6,
+        "value2": 2
+      },
+      {
+        "name":"data",
+        "value1": 2,
+        "value2": 2
+      },
+      {
+        "name":"data",
+        "value1": 1,
+        "value2": 4
       }
     ]
   }

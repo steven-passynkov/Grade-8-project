@@ -23,8 +23,8 @@ export default function ScatterGraph({data}) {
       }}
     >
       <CartesianGrid />
-      <XAxis type="number" dataKey="value1" name="idk"/>
-      <YAxis type="number" dataKey="value2" name="idk"/>
+      <XAxis type="number" dataKey="value1" name="times"/>
+      <YAxis type="number" dataKey="value2" name="hours"/>
       <Tooltip cursor={{ strokeDasharray: "3 3" }} />
       <Scatter name="A school" data={data} fill="#8884d8">
         {data.map((entry, index) => (
